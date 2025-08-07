@@ -1,0 +1,30 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/styling-sample.uss?fileID=7433441132597879392&amp;guid=1eb18d720dc8d55428fcc30c8629821b&amp;type=3#styling-sample" />
+    <ui:VisualElement name="container" style="flex-grow: 1;">
+        <ui:VisualElement name="box" class="box-class">
+            <ui:Label text="A" />
+        </ui:VisualElement>
+        <ui:VisualElement name="box" class="box-class" style="width: 50px; height: 50px; justify-content: center; align-items: center; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(236, 71, 73); border-right-color: rgb(236, 71, 73); border-top-color: rgb(236, 71, 73); border-bottom-color: rgb(236, 71, 73);">
+            <ui:Label text="B" />
+        </ui:VisualElement>
+        <ui:VisualElement name="box" style="width: 50px; height: 50px; justify-content: center; align-items: center; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(234, 229, 37); border-right-color: rgb(234, 229, 37); border-top-color: rgb(234, 229, 37); border-bottom-color: rgb(234, 229, 37);">
+            <ui:Label text="C" />
+        </ui:VisualElement>
+        <ui:VisualElement name="box-direct-child" style="width: 50px; justify-content: center; align-items: center; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(234, 229, 37); border-right-color: rgb(234, 229, 37); border-top-color: rgb(234, 229, 37); border-bottom-color: rgb(234, 229, 37);">
+            <ui:Label text="D" name="label" />
+            <ui:Label text="D" name="label">
+                <ui:Label text="child" name="label" style="font-size: 8px;" />
+            </ui:Label>
+            <ui:Label text="D" name="label-2" />
+        </ui:VisualElement>
+        <ui:VisualElement name="box-child-depth" style="width: 50px; justify-content: center; align-items: center; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(234, 229, 37); border-right-color: rgb(234, 229, 37); border-top-color: rgb(234, 229, 37); border-bottom-color: rgb(234, 229, 37);">
+            <ui:Label text="D" name="label" />
+            <ui:Label text="D" name="label">
+                <ui:Label text="     child" name="label" style="font-size: 8px;" />
+            </ui:Label>
+            <ui:Label text="D" name="label-2">
+                <ui:Label text="     child" name="label" style="font-size: 8px;" />
+            </ui:Label>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="green-box" style="border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-left-color: rgb(28, 255, 0); border-right-color: rgb(28, 255, 0); border-top-color: rgb(28, 255, 0); border-bottom-color: rgb(28, 255, 0); flex-basis: 80%; flex-shrink: 0; flex-grow: 0;" />
+    <ui:VisualElement name="yellow-box" style="border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-left-color: rgb(239, 255, 0); border-right-color: rgb(239, 255, 0); border-top-color: rgb(239, 255, 0); border-bottom-color: rgb(239, 255, 0); display: none; flex-shrink: 0; flex-basis: 80%;">
+        <ui:VisualElement name="box" style="width: 250px; height: 250px; background-color: rgb(72, 119, 234); flex-shrink: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

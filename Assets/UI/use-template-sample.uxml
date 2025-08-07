@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="box-template" src="project://database/Assets/UI/box-template.uxml?fileID=9197481963319205126&amp;guid=db214f736d854d94a89ca241da497404&amp;type=3#box-template" />
+    <ui:Instance template="box-template" />
+</ui:UXML>

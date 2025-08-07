@@ -1,0 +1,33 @@
+.box-class {
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(234, 229, 37);
+    border-right-color: rgb(234, 229, 37);
+    border-top-color: rgb(234, 229, 37);
+    border-bottom-color: rgb(234, 229, 37);
+}
+
+/* #box {
+  width: 100px;
+  height: 100px;
+}
+
+Label {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+} */
+
+#box-child-depth #label {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="container" style="flex-grow: 1;">
+        <ui:VisualElement name="box" style="width: 200px; height: 200px; justify-content: center; align-items: center; background-image: url(&quot;project://database/Assets/Sprites/button-poker-active.png?fileID=2800000&amp;guid=e8f33660b9e32cd4d85982e412f26530&amp;type=3#button-poker-active&quot;);" />
+    </ui:VisualElement>
+</ui:UXML>
